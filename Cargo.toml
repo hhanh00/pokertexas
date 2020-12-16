@@ -1,5 +1,7 @@
 [workspace]
 
 members = [
+	"api",
 	"eval",
+	"game",
 ]
