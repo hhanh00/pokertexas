@@ -2,5 +2,6 @@ syntax = "proto3";
 package poker;
 
 message BetAction {
-
+    uint64 amount = 1;
+    uint32 uid = 2;
 }

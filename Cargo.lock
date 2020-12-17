@@ -10,11 +10,7 @@ checksum = "2c0df63cb2955042487fad3aefd2c6e3ae7389ac5dc1beb28921de0b69f779d4"
 name = "api"
 version = "0.1.0"
 dependencies = [
- "async-stream",
- "futures-core",
- "futures-util",
  "prost",
- "tokio",
  "tonic",
  "tonic-build",
 ]
@@ -195,6 +191,14 @@ dependencies = [
 [[package]]
 name = "game"
 version = "0.1.0"
+dependencies = [
+ "api",
+ "async-stream",
+ "futures-core",
+ "futures-util",
+ "tokio",
+ "tonic",
+]
 
 [[package]]
 name = "getrandom"
